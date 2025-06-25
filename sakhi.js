@@ -20,7 +20,7 @@ async function askSakhi() {
   document.getElementById("userInput").value = "";
 
   try {
-    const response = await fetch("http://localhost:4000/ask", {
+    const response = await fetch("https://sakhipay-backend.onrender.com/ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
